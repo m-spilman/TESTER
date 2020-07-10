@@ -1,13 +1,208 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.btn-round {
+  border-radius: 40px;
+  width: 75%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.shadows {
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2),
+    12px 8px 12px rgba(0, 0, 0, 0.14), 4px 4px 4px rgba(0, 0, 0, 0.12);
+  text-align: left;
+  /* margin-bottom: 30px; */
+}
+
+.wrapper {
+  /* height: 732px; */
+  width: 375px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.title {
+  padding: 5px 0px 0px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size:  16px;
+  max-width: 264px;
+  margin: 0 auto ;
+}
+
+.explanation {
+  padding: 0px 0px 5px 0px;
+  margin: 0 auto ;
+  max-width: 264px;
+  font-size: 12px;
+}
+
+.explanationFooter {
+  padding: 5px 0px 5px 0px;
+  margin: 0 auto ;
+  font-size: 14px;
+  height: 15%;
+
+}
+/* img {
+  padding: 10px 10px 10px 10px;
+
+} */
+.card {
+  /* padding-bottom: 45px; */
+  border: none !important;
+  max-width: 264px;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+ 
+ 
+}
+.cardTEST {
+  /* padding-bottom: 45px; */
+  border: none !important;
+  max-width: 264px;
+  height: 225px;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background-color: white;
+ 
+ 
+}
+
+/* make form input lines not boxes */
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"],
+:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input[type="number"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="number"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+p {      
+  padding-bottom: 25px;
+}
+
+.card-footer, .card-header{
+  border: none !important;
+  background-color: white;
+  height: 5%;
+  padding: 0px 0px 0px 17px;
+
+}
+.card-body{
+  padding: 0px 0px 0px 0px;
+}
+ul{
+  text-align: left;
+  padding: 5px 0px 5px 0px;
+  font-size: 12px;
+}
+
+.errors{
+  color:red;
+}
+
+.Googlebutton, .Facebookbutton{
+ margin-bottom: 10px;
+
+}
+.Googlefacebookbuttons{
+  text-align: center;
+}
+
+.bodyWrapper{
+  background-color:#DAF1FE80;
+  height: 812px
+}
+
+.imgSize{
+  width: 53%;
+  height: 30%
+}
+
+.arrow{
+  max-width: 74px;
+  max-height: 17px;
+  padding-right: 50px;
+
+ 
+}
+.navArrow{
+  display: flex;
+ 
+  justify-content: space-evenly;
+  padding-top: 5px;
+ 
+
+}
+.podIcon{
+  padding-right: 80px;
+
+  
+
+}
+
+/* ITEM CARD STUFFS */
+
+label{
+  padding-left: 5px;
+  padding-top: 35px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+small{
+  padding: 0px 0px 15px 5px;
+  font-size: 13px !important;
+}
+
+h3 {
+  font-weight: bold !important;
+}
+
+form{
+  max-width: 228px;
+  margin: 0 auto ;
 }
